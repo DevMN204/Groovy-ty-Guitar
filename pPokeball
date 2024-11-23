@@ -1,0 +1,47 @@
+let x = 300
+let xmid = 150
+
+function setup() {
+  createCanvas(600, 600);
+}
+
+function draw() {
+  background(225, 225, 225);
+}
+
+
+function mouseDragged() {
+  noStroke();
+  fill(244, 249, 249);
+  circle(mouseX, mouseY, 50);
+}
+
+function draw() {
+  background (207, 224, 223);
+  triangle()
+  fill (98, 184, 109);
+  rect(0, 200, 600, 600)
+  noStroke() ;
+  fill(16, 70, 23);
+  ellipse(380, 380, 300, 150);
+  fill(147, 161, 147);
+  circle(310, 310, 300);
+  fill(175, 43, 28);
+  circle(x, x, 300);
+  fill (0);
+  circle(x, x, 300);
+  fill(175, 43, 28)
+  circle(295, 290, 285);
+  fill(236, 82, 64);
+  circle(285, 280, 250);
+  fill(239, 122, 108);
+  circle(237, 230, 35);
+  fill(225, 225, 225);
+  circle(234, 225, 10);
+  fill (16, 70, 23);
+  ellipse(0, 450, 300, 20);
+  ellipse(0, 400, 300, 20);
+}
+
+
+
